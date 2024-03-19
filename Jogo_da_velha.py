@@ -430,7 +430,6 @@ tenha entendido :)''')
             # Verificar empate
             if all(tabuleiro):
                 placar_nome(empateT=True)
-                menu(*tabuleiro)
                 placar(X_OU_O[0], X_OU_O[2], O_OU_X[2], O_OU_X[0])
                 limpar_tbl(*tabuleiro)
                 verificar_continuar()
