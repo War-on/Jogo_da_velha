@@ -2,4 +2,5 @@
 
 
 var Primeira_Busca = `//*[@id="page-navbar"]/nav/ol/li[3]/a`;
-alert(document.getElementsByTagName('form')[0]);
+
+document.getElementsByTagName('form')[0].remove();
